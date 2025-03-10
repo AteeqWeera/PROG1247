@@ -1,1 +1,37 @@
 /* Ateeq Weera Student Number 8941542*/
+html{
+    font-size: 20px
+}
+p{
+    font-size: 1.5 rem /* can also use em instead of rem
+*/}
+body{
+    max-width: 800px;
+
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 30px; color: rgb(122, 77, 9);
+}
+h2{
+    color: rgb(29, 29, 250); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* March 10th class==to remove bullets points from a li*/
+li{
+list-style-type: none;
+}
