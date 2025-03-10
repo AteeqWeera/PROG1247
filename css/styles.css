@@ -1,12 +1,16 @@
-/* Ateeq Weera Student Number 8941542*/
+/* Ateeq Weera Student Number 8941542 */
 html{
     font-size: 20px
 }
+/* can also use em instead of rem */
 p{
-    font-size: 1.5 rem /* can also use em instead of rem
-*/}
+    font-size: 1.5 rem;
+    border: .2rem;
+    border-color: rgb(109, 235, 235)
+    
+}
 body{
-    max-width: 800px;
+    max-width: 1400px;
 
 }
 h1 {
@@ -15,6 +19,43 @@ h1 {
 h2{
     color: rgb(29, 29, 250); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/* Class fomating i.e the following class refers to a class ID thta we have created*/
+.main-section
+{
+    border-style: ridge;
+}
+main{
+    padding: .5rem;
+    margin: .5rem;
+    width : 55%;
+        float: left;
+
+}
+aside {
+    width: 35%;
+    float: right;
+}
+#figrumi{
+    background-color: rgb(113, 26, 194);
+    border : solid; 
+    padding: .5rem;
+    border-radius: 1.5rem;
+
+}
+
+#imgRumi{
+    background-color: rgb(241, 241, 127);
+    display: block;
+}
+#famous-quote{
+    border: .25rem solid;
+    box-shadow: .45rem color(srgb rgb(223, 16, 16) rgb(51, 216, 51) rgb(62, 62, 204));
+}
+#bottom {
+    border: .4rem color(srgb red green blue);
+}
+/* USE THE VIDEO FOR FONT SHORTCUTS*/
+
 
 
 
@@ -34,4 +75,9 @@ h2{
 /* March 10th class==to remove bullets points from a li*/
 li{
 list-style-type: none;
+}
+/* we use Media Query*/
+@media (max-width){
+    
+
 }
